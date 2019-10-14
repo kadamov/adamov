@@ -9,7 +9,10 @@
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
-  	
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      
 	<title>MY WORK</title>
 </head>
 <body>
@@ -79,7 +82,7 @@
 		<ul class="cd-slider">
 			
 			<li class="current">
-				<a href="../projects/learn-coding/learn-coding.html">
+				<a onClick="showProjectDetails('learncoding')">
 					<img src="img/learncoding.png" alt="project image">
 					<div class="project-info">
 						<h2>LEARN CODING</h2>
@@ -89,7 +92,7 @@
 			</li>
 
 			<li>
-				<a href="#0">
+				<a onClick="showProjectDetails('frugtoggront')">
 					<img src="img/frugt.png" alt="project image">
 					<div class="project-info">
 						<h2>FRUGT OG GRONT</h2>
@@ -99,7 +102,7 @@
 			</li>
 
 			<li>
-				<a href="#0">
+				<a onClick="showProjectDetails('frisior')">
 					<img src="img/Image 17.png" alt="project image">
 					<div class="project-info">
 						<h2>LYSTRUP FRISIOR</h2>
@@ -109,7 +112,7 @@
 			</li>
 
 			<li>
-				<a href="#0">
+				<a onClick="showProjectDetails('BAA')">
 					<img src="img/Image 18.png" alt="project image">
 					<div class="project-info">
 						<h2>BAA Library</h2>
@@ -127,22 +130,115 @@
 		</ul> <!-- .cd-slider-navigation -->
 	</div> <!-- .cd-projects-wrapper -->
 
-	<div class="cd-project-content">
+	<div class="cd-project-content" id="learncoding">
 		<div>
 			<h2>Learn Coding</h2>
 			<em>"Your online learning entertainment"</em>
-			<p>
-				LEARN CODING is a web-app where you can learn and practice any coding language you want to learn or upgrade your knowledge and abilities.
-			</p>
-			<p>
-				Illum quaerat asperiores aliquam voluptate saepe omnis porro excepturi in atque veritatis sapiente ipsam voluptates iste amet deserunt ullam error pariatur, magni consectetur optio nostrum minima dolorum. Soluta animi nihil doloremque ipsa incidunt vitae architecto beatae, maxime libero, dolore corporis vero porro tenetur ipsam modi repudiandae magnam enim, quibusdam sit.
-			</p>
-			<p>
-				Illum quaerat asperiores aliquam voluptate saepe omnis porro excepturi in atque veritatis sapiente ipsam voluptates iste amet deserunt ullam error pariatur, magni consectetur optio nostrum minima dolorum. Soluta animi nihil doloremque ipsa incidunt vitae architecto beatae, maxime libero, dolore corporis vero porro tenetur ipsam modi repudiandae magnam enim, quibusdam sit.
-			</p>
+			
+            <div class="work">
+                  <img class="anim" src="img/img1.png" alt="project img">
+                  <img class="anim" src="img/img2.png" alt="project img">
+                  <img class="anim" src="img/img3.png" alt="project img">
+                  <img class="anim" src="img/img4.png" alt="project img">
+            </div>
+
+            
+                  <h2>UX For Learn Coding</h2>
+                  <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sit necessitatibus, eos minima odio, ea ipsam, dicta nihil praesentium soluta fugit aspernatur nisi enim libero quos omnis? Optio suscipit quibusdam incidunt maiores repudiandae laudantium eaque, obcaecati totam architecto aut ab?</p>
+            
+
+            <div class="work2">
+                  <img class="anim" src="img/img5.png" alt="project img">
+                  <img class="anim" src="img/img6.png" alt="project img">
+            </div>
+
+            <footer>
+                  <p> | K.A.</p>
+            </footer>
+		</div>
+		
+		<a href="#0" class="close cd-img-replace">Close</a>
+	</div> <!-- .cd-project-content -->
+	<div class="cd-project-content" id="frugtoggront">
+		<div>
+			<h2>Frugt og Gront</h2>
+			<em>"Your online grocery store"</em>
+			<div class="work">
+                  <img class="anim" src="img/frugt1.png" alt="project img">
+                  <img class="anim" src="img/frugt2.png" alt="project img">
+                  <img class="anim" src="img/frugt3.png" alt="project img">
+                  <img class="anim" src="img/frugt4.png" alt="project img">
+            </div>
+
+            
+                  <h2>UX For Learn Coding</h2>
+                  <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sit necessitatibus, eos minima odio, ea ipsam, dicta nihil praesentium soluta fugit aspernatur nisi enim libero quos omnis? Optio suscipit quibusdam incidunt maiores repudiandae laudantium eaque, obcaecati totam architecto aut ab?</p>
+            
+
+            <div class="work2">
+                  <img class="anim" src="#" alt="project img">
+                  <img class="anim" src="#" alt="project img">
+            </div>
+
+            <footer>
+                  <p> | K.A.</p>
+            </footer>
 		</div>
 		<a href="#0" class="close cd-img-replace">Close</a>
 	</div> <!-- .cd-project-content -->
+	
+	<div class="cd-project-content" id="frisior">
+		<div>
+			<h2>Lystrup Frisior</h2>
+			<em>"EVERYTHING FEELS BETTER AFTER A GOOD HAIRCUT"</em>
+			<div class="work">
+                  <img class="anim" src="img/frisor 1.png" alt="project img">
+                  <img class="anim" src="img/frisor 2.png" alt="project img">
+                  <img class="anim" src="img/frisor 3.png" alt="project img">
+                  <img class="anim" src="img/frisor 4.png" alt="project img">
+            </div>
+
+            
+                  <h2>UX For Learn Coding</h2>
+                  <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus sit necessitatibus, eos minima odio, ea ipsam, dicta nihil praesentium soluta fugit aspernatur nisi enim libero quos omnis? Optio suscipit quibusdam incidunt maiores repudiandae laudantium eaque, obcaecati totam architecto aut ab?</p>
+            
+			<div class="work">
+			<img class="anim" src="img/Visit card - Front  yellow.png" alt="project img">
+				<img class="anim" src="img/Visit card - Back  yellow.png" alt="project img">
+			</div>
+            <div class="work2">
+                  <img class="anim" src="img/back-front.png" alt="project img">
+                  <img class="anim" src="img/Artboard – 3.png" alt="project img">
+            </div>
+
+            <footer>
+                  <p> | K.A.</p>
+            </footer>
+		</div>
+		<a href="#0" class="close cd-img-replace">Close</a>
+	</div> <!-- .cd-project-content -->
+	
+	<div class="cd-project-content" id="BAA">
+		<div>
+			<h2>BAA Library</h2>
+			<div class="work">
+                  <img class="anim" src="img/Home – 2.png" alt="project img">
+                  <img class="anim" src="img/Carousel – 1.png" alt="project img">
+            </div>
+			<div class="work2">
+                  <img class="anim" src="img/QR code.png" alt="project img">
+                  
+            </div>
+            
+                
+
+            <footer>
+                  <p> | K.A.</p>
+            </footer>
+		</div>
+		<a href="#0" class="close cd-img-replace">Close</a>
+	</div> <!-- .cd-project-content -->
+	
 <script src="js/jquery-2.1.4.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->

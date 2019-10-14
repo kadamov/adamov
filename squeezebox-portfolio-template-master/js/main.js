@@ -1,3 +1,10 @@
+function showProjectDetails(id){
+	console.log(id);
+	document.querySelector('#' + id).classList.add("is-visible");
+}
+
+
+
 jQuery(document).ready(function(){
 	var intro = $('.cd-intro-block'),
 		projectsContainer = $('.cd-projects-wrapper'),

@@ -8,6 +8,8 @@
     <link href="css/Home.css" rel="stylesheet" type="text/css">
 	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet" />
+	
+	
 <title>Home</title>
   </head>
   <body>
@@ -43,6 +45,7 @@
 		  <h2 class="Konstantin-Adamov">Konstantin Adamov</h2>
 		<h3 class="I-am-web-developer-who-Build-Products-that-Deliver-Results"> I am web developer who Build Products that Deliver Results</h3>
 		<a href="squeezebox-portfolio-template-master/my-work.html" class="button-work">View my work</a>
+		
 		  <!-- Layer To Activate Hover Effect .. DON'T DELETE -->
 <div class="layer"></div>
 
@@ -481,28 +484,41 @@
 	  
 	  <section class="switch-products">
 	  	<div class="switchh"></div>
-		  
-		  <div class="container-grid-products">
-    <div class="container-grid-products-text">
-        <h2 class="learn-coding">Learn Coding</h2>
-		<h3 class="Your-online-learning-entertainment">"Your online learning entertainment"</h3>
-        <p class="Learn-coding-HELPS-YOU-LEARN-EVERY-CODING-LANGUAGE-FROM-BEGINNER-TO-EXPERT">Learn coding HELPS YOU LEARN EVERY CODING LANGUAGE FROM BEGINNER TO EXPERT</p>
-		<a href="projects/learn-coding/learn-coding.html" class="button-project">View Project</a>
-    </div>
-			  <img class="container-grid-products-image" src="images/splash-mock.png" alt="Learn Coding">
-</div>
-		  
-		  
-		  <div class="container-grid-products">
-			  <img class="container-grid-products-image2" src="images/frugt-gront.png" alt="Frugt og Gront">
-    <div class="container-grid-products-text2">
-        <h2 class="FRUGT-GRONT">FRUGT og GRONT</h2>
-		<h3 class="Your-online-Grocery-store">"Your online Grocery store"</h3>
-        <p class="lorem">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed</p>
-		<a href="#" class="button-project2">View Project</a>
-    </div>
-			  
-</div>
+		  <main class="container">
+        <section class="card">
+            <img class="learn-image" src="images/splash-mock.png" alt="">
+            <div>
+                <h3 class="learn-coding">Learn coding</h3>
+				<h4 class="Your-online-learning-entertainment">"Your online learning entertainment"</h4>
+                <p class="Learn-coding-HELPS-YOU-LEARN-EVERY-CODING-LANGUAGE-FROM-BEGINNER-TO-EXPERT">Learn coding HELPS YOU LEARN EVERY CODING LANGUAGE FROM BEGINNER TO EXPERT
+                </p>
+                <a href="squeezebox-portfolio-template-master/my-work.html" class="btn">View project</a>
+				
+            </div>
+        </section>
+
+        <section class="card" data-aos="fade-left">
+            <img class="frugt-image" src="images/frugt-gront.png" alt="">
+            <div>
+                <h3 class="learn-coding">Frugt og Gront</h3>
+                <h4 class="Your-online-learning-entertainment">"Your online Grocery store"</h4>
+                <p class="Learn-coding-HELPS-YOU-LEARN-EVERY-CODING-LANGUAGE-FROM-BEGINNER-TO-EXPERT">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, 
+                    sapiente. Voluptates libero dolores quam in sapiente minima nam suscipit! 
+                    Facilis sint aperiam magnam optio repellat, unde quia alias at facere!
+                </p>
+                <a href="squeezebox-portfolio-template-master/my-work.html" class="btn">View project</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 800
+      });
+    </script>
+		
 	  
 	  </section>
 	  
@@ -555,6 +571,60 @@ Looking to improve your page performance,SEO,user experience and more?
     </div>
 </div>
 	
+	<section id="testim" class="testim">
+<!--         <div class="testim-cover"> -->
+            <div class="wrap">
+
+                <span id="right-arrow" class="arrow right fa fa-chevron-right"></span>
+                <span id="left-arrow" class="arrow left fa fa-chevron-left "></span>
+                <ul id="testim-dots" class="dots">
+                    <li class="dot active"></li><!--
+                    --><li class="dot"></li><!--
+                    --><li class="dot"></li><!--
+                    --><li class="dot"></li><!--
+                    --><li class="dot"></li>
+                </ul>
+                <div id="testim-content" class="cont">
+                    
+                    <div class="active">
+                        <div class="img"><img src="https://image.ibb.co/hgy1M7/5a6f718346a28820008b4611_750_562.jpg" alt=""></div>
+                        <h2>Lorem P. Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                    </div>
+
+                    <div>
+                        <div class="img"><img src="https://image.ibb.co/cNP817/pexels_photo_220453.jpg" alt=""></div>
+                        <h2>Mr. Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                    </div>
+
+                    <div>
+                        <div class="img"><img src="https://image.ibb.co/iN3qES/pexels_photo_324658.jpg" alt=""></div>
+                        <h2>Lorem Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                    </div>
+
+                    <div>
+                        <div class="img"><img src="https://image.ibb.co/kL6AES/Top_SA_Nicky_Oppenheimer.jpg" alt=""></div>
+                        <h2>Lorem De Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                    </div>
+
+                    <div>
+                        <div class="img"><img src="https://image.ibb.co/gUPag7/image.jpg" alt=""></div>
+                        <h2>Ms. Lorem R. Ipsum</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                    
+                    </div>
+
+                </div>
+
+            </div>
+<!--         </div> -->
+    </section>
+
+<script src="https://use.fontawesome.com/1744f3f671.js"></script>
+	
+	
 	
 	  </section>
 	  
@@ -563,5 +633,6 @@ Looking to improve your page performance,SEO,user experience and more?
 	  
 	  
 	</body>
+	
 	<script src="js/home.js"></script>
 	</html>
