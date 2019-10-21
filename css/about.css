@@ -1,6 +1,6 @@
 body
 {
- 
+
 	width: 100%;
 	height: 100%;
 	background-color: white;
@@ -54,7 +54,7 @@ background-image: url("../images/topbar.png");
     position: relative;
 	right: -35%;
 	text-decoration:none;
-	
+
   background-image: linear-gradient(to left, #aa13f3, #2af0ff);
 	font-family: IntroIn;
   font-size: 27px;
@@ -64,13 +64,13 @@ background-image: url("../images/topbar.png");
   line-height: 1.22;
   letter-spacing: normal;
   text-align: center;
-  color: #ffffff;   
+  color: #ffffff;
 }
 
 .Page-about-me {
  width: 100%;
 	position: relative;
-	top: -290px;
+	top: -15rem;
   font-family: IntroIn;
   font-size: 50px;
   font-weight: normal;
@@ -84,7 +84,7 @@ background-image: url("../images/topbar.png");
 .Page-about-me1 {
  width: 100%;
 	position: relative;
-	top: -240px;
+	top: -12rem;
   font-family: IntroIn;
   font-size: 50px;
   font-weight: normal;
@@ -100,12 +100,12 @@ background-image: url("../images/topbar.png");
 	background-image: url("../images/Path 7.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-  
+
 }
 .me-info{
 	max-width: 100%;
 	margin-left: 20px;
-	padding-top: 120px;
+	padding-top: 80px;
   font-family: Raleway;
   font-size: 1.2vw;
   font-weight: 400;
@@ -127,7 +127,7 @@ background-image: url("../images/topbar.png");
 .skills-bar-container {
   position: relative;
   width: 50%;
-  
+
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -136,7 +136,7 @@ background-image: url("../images/topbar.png");
 }
 .skills-bar-container li {
   position: relative;
-  width: 90%;
+  width: 100%;
   padding: 5px;
   margin-bottom: -20px;
 }
@@ -397,7 +397,7 @@ background-image: url("../images/topbar.png");
 	 .skills-bar-container{
 	display: contents;
 }
-	 
+
 	 .reactangle{
 	margin: 0 30px;
 	position: relative;
@@ -441,7 +441,7 @@ background-image: url("../images/topbar.png");
 	background-image: url("../images/Path 7.png");
 	background-repeat: no-repeat;
 	background-size: cover;
-  
+
 }
 .me-info{
 	max-width: 100%;
@@ -459,10 +459,10 @@ background-image: url("../images/topbar.png");
 }
 	.skill-set__list {
 		display: none;
-} 
-	
-	
-	
+}
+
+
+
 }
 
 
@@ -479,7 +479,7 @@ background-image: url("../images/topbar.png");
 
 
 .skill-set__list {
-    width: 47%;
+    width: 46.5%;
 }
 ol, ul {
     list-style: none;
@@ -748,7 +748,7 @@ skill-set__ratio {
   border-radius:50px;
   transition-duration:0.6s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  
+
   background: #05abe0;
   background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
   background: -webkit-linear-gradient(45deg, #05abe0 0%,#8200f4 100%);
@@ -770,16 +770,16 @@ skill-set__ratio {
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-	
+
 	.section-hamburger {
 		display: flex;
   position: fixed;
 	left: 0;
 	top: 0;
-	
-	
+
+
 }
-	
+
 
 .menu-btn {
   display: block;
@@ -872,8 +872,8 @@ skill-set__ratio {
 	.menu_active a:nth-child(4) {
   transform: translate(200%, 190%);
 }
-	
-	
+
+
 	.tabbar {
 	height: 22vh;
 display: flex;
@@ -883,7 +883,7 @@ background-image: url("../images/top-bar-mobile.png");
 	background-size: cover;
 
 }
-	
+
 
 .tabs{
   display: none;
